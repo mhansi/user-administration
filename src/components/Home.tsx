@@ -203,14 +203,14 @@ const Home = () => {
             />
           </Row>
           <Row>
-            <Col md={6}>
+            <Col md={6} xs={6}>
               <PaginationBar
                 totalNumberOfPages={totalNumberOfPages}
                 currentPage={currentPage}
                 currectPageHandle={currentPageHandler}
               />
             </Col>
-            <Col md={6} className="ml-auto">
+            <Col md={6} xs={6} className="ml-auto">
               <Button
                 onClick={() => {
                   setSelectedUsers(undefined);
