@@ -183,7 +183,7 @@ const Home = () => {
       sortedList = users.sort((a, b) => (a[field] > b[field] ? -1 : 1));
     }
 
-    setUsers(sortedList);
+    setUsers([...sortedList]);
   };
 
   return (
